@@ -1,0 +1,151 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Registration Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/signup-fonticons.css">
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/fonts/stylesheet.css">
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/signup-font-awesome.min.css">
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/bootstrap.min.css">
+
+<!--For Plugins external css-->
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/plugins.css" />
+<!--Theme custom css -->
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/signup-style.css">
+<!--Theme Responsive css-->
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/responsive.css" />
+<link rel="stylesheet" href="C:/Users/Rj/Desktop/VAMSHI/scient-webapp/css/jquery-ui.css">
+</head>
+<body>
+		<div class="panel panel-primary no-padding">
+			<div class="panel-heading">
+				<h3 class="panel-title" style="text-align:center"><b>Registration Form</b></h3>
+			</div>
+			<div class="panel-body">
+               <div class="form-group">
+							<label for="name" class="col-sm-2 control-label">First
+								Name</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa"
+										aria-hidden="true"></i></span> <input type="text"
+										class="form-control" required="required" name="firstName"
+										id="firstName" placeholder="Enter First Name">
+								</div>
+							</div>
+							<br>
+							<label for="name" class="col-sm-2 control-label">Last
+								Name</label>
+							<div class="col-sm-4 ">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa"
+										aria-hidden="true"></i></span> <input type="text"
+										class="form-control" required="required" name="lastName"
+										id="lastName" placeholder="Enter Last Name">
+								</div>
+							</div>
+						</div><br>
+							<div class="col-md-11">
+					<form class="form-horizontal"></div>
+		           <div class="form-group">
+				   <label for="name" class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-4 ">
+								<div class="input-group">
+									<span class="input-group-addon"><i
+										class="fa fa-envelope fa" aria-hidden="true"></i></span> <input
+										type="email" pattern="[^ @]*@[^ @]*" class="form-control"
+										required="required" name="email" id="email"
+										placeholder="Enter your Email">
+								</div>
+							</div><br>
+                              <div class="form-group">
+							<label for="name" class="col-sm-2 control-label">Gender</label>
+								<div class="col-sm-4">
+								<div class="input-group">
+									<span class="input-group-addon"><i style="font-size:11px;" 
+										class="fa fa-users fa" aria-hidden="true"></i></span>
+										
+											<label class="radio-inline" for="gender-0" style="padding-left: 36px">
+											 <input required="required"
+												name="gender" id="gender-0" value="Male" 
+												type="radio"> Male
+											</label> <label class="radio-inline" for="gender-1"> <input
+												name="gender" id="gender-1" value="Female" type="radio">
+												Female
+											</label>
+									
+									</div>
+								</div><br>
+
+							<label for="name" class="col-sm-2 control-label">Password</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-key fa"
+										aria-hidden="true"></i></span> <input type="password"
+										required="required" class="form-control" name="password"
+										id="password" placeholder="Enter Password">
+								</div>
+							</div>
+						</div><br>
+							<label for="name" class="col-sm-2 control-label">Date of
+								Birth</label>
+							<div class="col-sm-4 ">
+								<div class="input-group">
+									<span class="input-group-addon"><i
+										class="fa fa-calendar fa" aria-hidden="true"></i></span> <input
+										type="text" class="form-control" required="required"
+										id="dob" placeholder="Enter Date of Birth">
+								</div>
+							</div>
+						</div><br><br>
+<label for="name" class="col-sm-2 control-label">Confrom Password</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-key fa"
+										aria-hidden="true"></i></span> <input type="password"
+										required="required" class="form-control" name="password"
+										id="password" placeholder="Enter Password">
+								</div>
+							</div><br>
+						<div class="form-group">
+							<label for="name" class="col-sm-2 control-label">Mobile</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-phone"
+										aria-hidden="true"></i></span> 
+										<input
+										type="tel" class="form-control" required="required"
+										id="mobile" placeholder="Enter Mobile Number">
+								</div>
+						</div><br><br><br>
+
+							<label for="name" class="col-sm-2 control-label">State</label>
+							<div class="col-sm-4 ">
+								<div class="input-group">
+									<span class="input-group-addon"><i
+										class="fa fa-map-marker"  style="font-size:21px" aria-hidden="true"></i></span> <select
+										class="form-control">
+										<option value="0" selected>Telangana</option>
+										<option value="1">Karnataka</option>
+										<option value="2">Tamilnadu</option>
+										<option value="3">Andhra Pradesh</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<br><br>
+                           <div class="col-sm-12 col-md-12">
+							<button type="submit" class="btn btn-primary"
+								style="float: right; background-color: #fb7317">Register</button>
+							</div>	<br>
+								
+					
+	
+
+</body>
+</html>
